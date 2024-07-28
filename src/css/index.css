@@ -1,0 +1,127 @@
+header{
+    background-color: #1b3039; /*background color of the header*/
+    height: 50px; /* height of the header*/
+    padding: 5px 10px; 
+    
+}
+#searching{
+    float: right; /* located the search box at the right*/
+    margin-right: 30px; /*Move the search box 30px to the right*/
+    margin-top: 15px; /*Move the search box 15px from the top*/
+}
+.nav{
+    float: right; 
+    margin-right: 70px;
+    margin-top: 15px; 
+}
+.nav a{
+    color: #3BC151; /*change the color */
+    font-size: 20px;/* change the size of the links to 20 px*/
+    font-style: italic;/*change the font of the link*/
+    text-decoration: none;/*delete line  link*/
+    margin: 0px 10px;/*generates an margin between items 0 px top, bottom and 10 px on the right and left*/   
+    display: inline;  /*Move all links to the same line*/
+}
+.icon img{
+    height: 50px;
+}
+.icon{
+    width: 50px;
+    cursor: pointer;
+    margin-left: 25px;
+    margin-top: 1px;
+    float: left;  
+}
+
+body{
+    background-color:#0F732D;
+}
+h2{
+    float: left;
+    margin-top: 15px;
+    margin-left: 15px;
+    color: #3BC151;
+
+}
+
+
+#home{
+    margin-top: 0px;
+    background-image:url(../img/97.webp);
+    width: 100%;
+    height: 600px;
+    
+}
+#home p{
+    color: white;
+    float: left;
+    font-size: 50px;
+    margin-top: 100px;
+}
+.gren{
+    color: #26EF48;
+}
+#about{
+    display:flex;
+    justify-content: center;
+}
+#about p{
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 1000px;
+    font-style: italic;
+    color: white;
+
+}
+#about h2{
+    color: black;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 20px;
+}
+.banner{
+    margin-top: 15px;
+    margin-right: 20px;
+    margin-left: 7px;
+    height: 500px;
+    width: 460px;
+    padding: 5px;
+    border: 2px solid black;
+    float: left;
+    background-color: white;
+    text-align: center;
+    border-radius: 15px; 
+}
+.banner img{
+    margin: 10px auto; 
+    padding: 10px 10px;
+    display: block; 
+    height:300px;
+    width:400px;
+}
+button {
+    margin: 20px auto; 
+    padding: 10px 20px;
+    font-size: 16px;
+    display: block; 
+    border-radius: 5px;
+    background-color: #0F732D;
+    color: white ;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+
+#contact{
+    margin-left: 45%;
+}
+
+#contact img{
+    display: flex; 
+    margin-top: 35px;
+    margin-left: 10px;
+    width: 45px;
+    height: 45px;
+    display: inline;   
+}
